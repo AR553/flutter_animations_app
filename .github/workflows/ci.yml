@@ -33,11 +33,11 @@ jobs:
       - name: Building apk
         run: flutter build apk --release --target-platform android-arm64
 
-      - name: Releasing apk
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "build/app/outputs/apk/release/*.apk"
-          token: ${{secrets.ART_TOKEN}}
+#       - name: Releasing apk
+#         uses: ncipollo/release-action@v1
+#         with:
+#           artifacts: "build/app/outputs/apk/release/*.apk"
+#           token: ${{secrets.ART_TOKEN}}
         
       # Uncomment this step to verify the use of 'dart format' on each commit.
       # - name: Verify formatting
