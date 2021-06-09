@@ -5,7 +5,10 @@
 
 name: CI
 
-on: create
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
   build:
