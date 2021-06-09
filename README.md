@@ -1,5 +1,7 @@
 # animations_app
 
+[![CI](https://github.com/AR553/flutter_animations_app/actions/workflows/ci.yml/badge.svg)](https://github.com/AR553/flutter_animations_app/actions/workflows/ci.yml)
+
 A new Flutter project.
 
 ## Getting Started
