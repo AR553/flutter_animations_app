@@ -51,6 +51,7 @@ class _ExplicitAnimationPageState extends State<ExplicitAnimationPage> with Sing
                           end: RelativeRect.fromLTRB(x < 0 ? x.abs() * 40 : 0, y > 0 ? y.abs() * 80 : 0, x > 0 ? x.abs() * 40 : 0,
                               y < 0 ? y.abs() * 80 : 0),
                         ).animate(_controller),
+
                         child: Center(
                           child: Container(
                             decoration: BoxDecoration(
