@@ -1,3 +1,4 @@
+import 'package:animations_app/views/ball_animation.dart';
 import 'package:flutter/material.dart';
 
 import 'explicit_animation.dart';
@@ -38,6 +39,20 @@ class HomePage extends StatelessWidget {
                   padding: EdgeInsets.all(10.0),
                   child: Text(
                     'Explicit Animation',
+                    style: TextStyle(color: Colors.white),
+                  ))),
+          SizedBox(height: 15),
+          TextButton(
+              onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => BallAnimationPage(),
+                  )),
+              child: Container(
+                  color: Colors.indigo,
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(
+                    'Bouncy Animation',
                     style: TextStyle(color: Colors.white),
                   ))),
           SizedBox(height: 15),
